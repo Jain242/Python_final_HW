@@ -39,30 +39,3 @@ if __name__ == "__main__":
     logging.info('Завершение работы!\n_________________________')
 
     
-
-
-# parser = argparse.ArgumentParser(description='Find date')
-# parser.add_argument('-date', metavar='date', type=str, nargs='*', help='Enter a number of weekday in month')
-
-
-# # Введите ваше решение ниже
-# import json
-# import csv
-# import pickle
-# import os
-
-# def traverse_directory(directory):
-#     result = []
-#     for root, dirs, files in os.walk(directory):
-#         for name in files:
-#             path = os.path.join(root,name)
-#             size = os.path.getsize(path)
-#             result.append({'Path': path, 'Type': 'File', 'Size' : size})
-#         for name in dirs:
-#             path = os.path.join(root,name)
-#             result.append({'Path': path, 'Type': 'Directory'})
-#     return result
-
-
-
-
